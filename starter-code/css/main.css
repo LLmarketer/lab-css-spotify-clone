@@ -41,6 +41,7 @@ White: #FFF
 	background-image: url('../images/landing.jpg');
 	background-repeat: no-repeat;
 	background-size: 100% auto;
+	margin-bottom: 40px;
 }
 
 .hero-banner-copy {
@@ -50,15 +51,27 @@ White: #FFF
 	top: 35%;
 }
 
+.second-block {
+	width: 100%;
+	position: relative;
+	left: 0;
+
+}
+
 .sub-heading {
+	position: relative;
+	left: 43%;
 	text-align: center;
-	border-bottom: 2px solid green;
+	border-bottom: 2px solid #00B172;
+	width: 180px;
 }
 
 .boxes {
-	width: 100%;
+	position: relative;
+	left: 13%;
 	height: 200px;
-	margin: 20px;
+
+
 }
 
 .thumbnails {
@@ -68,18 +81,26 @@ White: #FFF
 
 .mil-songs, .hd-music, .stream  {
 	float: left;
-	margin: 50px;
+	margin-top: 2%;
 	text-align: center;
+	margin-left: 5%;
+	margin-bottom: 5%;
 }
 
+.box-title {
+	font-weight: bold;
+	color: #00B172;
+}
 
 .boxes-copy {
 	text-align: center;
-	width: 100px;
+	width: 150px;
 	margin: 20px;
 }
 
 .third-block {
 	clear: both;
 }
+
+
 
